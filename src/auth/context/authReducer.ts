@@ -1,4 +1,5 @@
 import { types } from "../types/types";
+//! En el reducer nunca se debe llamar infromacion que se encuentre fuera del reducer 
 
 interface AuthState {
     // Define the properties of the state 
