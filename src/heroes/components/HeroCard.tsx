@@ -11,13 +11,12 @@ export interface HeroCardProps {
 export const HeroCard = ({
     id,
     superhero,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     publisher,
     alter_ego,
     first_appearance,
     characters,
 }: HeroCardProps) => {
-
-    console.log(publisher);
 
     const heroImageUrl = `/assets/heroes/${ id }.jpg`
 

@@ -1,6 +1,5 @@
 import { heroes } from "../data/heroes";
 
-console.log(heroes);
 
 
 export const getHeroesByPublisher = (publisher: string) => {
